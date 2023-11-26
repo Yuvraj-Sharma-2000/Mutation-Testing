@@ -69,11 +69,16 @@
                 <version>1.15.3</version>
                 <configuration>
                     <targetClasses>
-                        <param>dsa.solutions.*</param>
+                        <param>dsa.solutions.google.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>dsa.solutions.*</param>
+                        <param>dsa.solutions.google.*</param>
                     </targetTests>
+                    <mutators>
+                        <mutator>
+                            ACCESSOR_CHANGE
+                        </mutator>
+                    </mutators>
                 </configuration>
 
             </plugin>
