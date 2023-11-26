@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Hackerrank</artifactId>
+    <artifactId>MutationTestingDSA</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Hackerrank</name>
     <description>Hackerrank</description>
@@ -68,13 +68,14 @@
                 <artifactId>pitest-maven</artifactId>
                 <version>1.15.3</version>
                 <configuration>
-                    <!--                <targetClasses>-->
-                    <!--                    <param>org.example.*</param>-->
-                    <!--                </targetClasses>-->
-                    <!--                <targetTests>-->
-                    <!--                    <param>org.example.*</param>-->
-                    <!--                </targetTests>-->
+                    <targetClasses>
+                        <param>dsa.solutions.microsoft.*</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>dsa.solutions.microsoft.*</param>
+                    </targetTests>
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
