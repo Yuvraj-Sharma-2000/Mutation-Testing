@@ -69,10 +69,10 @@
                 <version>1.15.3</version>
                 <configuration>
                     <targetClasses>
-                        <param>dsa.solutions.microsoft.*</param>
+                        <param>dsa.solutions.goldmansachs.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>dsa.solutions.microsoft.*</param>
+                        <param>dsa.solutions.goldmansachs.*</param>
                     </targetTests>
                 </configuration>
 
