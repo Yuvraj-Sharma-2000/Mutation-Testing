@@ -69,11 +69,16 @@
                 <version>1.15.3</version>
                 <configuration>
                     <targetClasses>
-                        <param>dsa.solutions.adobe.*</param>
+                        <param>dsa.solutions.intuit.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>dsa.solutions.adobe.*</param>
+                        <param>dsa.solutions.intuit.*</param>
                     </targetTests>
+                    <mutators>
+                        <mutator>EXPERIMENTAL_ARGUMENT_PROPAGATION</mutator>
+                        <mutator>EXPERIMENTAL_NAKED_RECEIVER</mutator>
+                        <mutator>VOID_METHOD_CALLS</mutator>
+                    </mutators>
                 </configuration>
 
             </plugin>
