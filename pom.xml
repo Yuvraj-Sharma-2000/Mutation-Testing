@@ -69,10 +69,10 @@
                 <version>1.15.3</version>
                 <configuration>
                     <targetClasses>
-                        <param>dsa.solutions.goldmansachs.*</param>
+                        <param>dsa.solutions.adobe.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>dsa.solutions.goldmansachs.*</param>
+                        <param>dsa.solutions.adobe.*</param>
                     </targetTests>
                 </configuration>
 
