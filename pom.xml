@@ -69,15 +69,15 @@
                 <version>1.15.3</version>
                 <configuration>
                     <targetClasses>
-                        <param>dsa.solutions.intuit.*</param>
+                        <param>dsa.solutions.google.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>dsa.solutions.intuit.*</param>
+                        <param>dsa.solutions.google.*</param>
                     </targetTests>
                     <mutators>
-                        <mutator>EXPERIMENTAL_ARGUMENT_PROPAGATION</mutator>
-                        <mutator>EXPERIMENTAL_NAKED_RECEIVER</mutator>
-                        <mutator>VOID_METHOD_CALLS</mutator>
+                        <mutator>
+                            ACCESSOR_CHANGE
+                        </mutator>
                     </mutators>
                 </configuration>
 
