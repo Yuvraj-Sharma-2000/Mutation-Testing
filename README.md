@@ -43,3 +43,8 @@ potential areas of improvement in test coverage or test quality.
 
 ![image](https://github.com/Yuvraj-Sharma-2000/Mutation-Testing/assets/111169758/ccfcc3cf-7571-4426-9e5a-46db14c8095c)
 
+
+## Contributions
+
+Yuvraj Sharma - Amazon , Intuit , Goldman Sachs , Microsoft (Solution and Testcase Generation for Maximum Coverage)
+Samir Ahmed Ghouri - Google , Adobe , Walmart (Solution and Testcase Generation for Maximum Coverage)
