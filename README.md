@@ -47,4 +47,5 @@ potential areas of improvement in test coverage or test quality.
 ## Contributions
 
 Yuvraj Sharma - Amazon , Intuit , Goldman Sachs , Microsoft (Solution and Testcase Generation for Maximum Coverage)
+
 Samir Ahmed Ghouri - Google , Adobe , Walmart (Solution and Testcase Generation for Maximum Coverage)
